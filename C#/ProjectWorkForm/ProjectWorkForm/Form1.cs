@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,8 @@ namespace ProjectWorkForm
 {
     public partial class Form1 : Form
     {
+        public string Ricerca;
+
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +22,7 @@ namespace ProjectWorkForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadData();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,11 +30,23 @@ namespace ProjectWorkForm
 
         }
 
-        private void LoadData()
+        void txtSelezione_TextChanged(object sender, EventArgs e)
+        {
+            Ricerca = txtSelezione.Text;
+
+            /*void funcRicerca()
+            {
+                Commessa myCommessa = new Commessa();
+                this.DataGridView1.DataSource = myCommessa.GetCommesse(Ricerca);
+            }*/
+        }
+
+        void btnInvia_Click(object sender, EventArgs e)
         {
             Commessa myCommessa = new Commessa();
-            this.DataGridView1.DataSource = myCommessa.GetCommesse();
+            this.DataGridView1.DataSource = myCommessa.GetCommesse(Ricerca);
         }
+
 
         //-----------------------------------------------------------------------------------------------------------------
 

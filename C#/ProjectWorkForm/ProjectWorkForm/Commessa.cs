@@ -38,11 +38,11 @@ namespace ProjectWorkForm
         #endregion
 
         #region "Metodi"
-        public DataTable GetCommesse()
+        public DataTable GetCommesse(string Ricerca)
         {
             DataTable dtRet = new DataTable("Commesse");
             SqlConnection con = new SqlConnection(_connectionString);
-            SqlCommand cmd = new SqlCommand("SELECT * FROM Articoli ORDER BY Codice_Prodotto", con);
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Articoli WHERE Articolo = \'" + Ricerca + "\' ORDER BY Codice_Prodotto", con);
             SqlDataReader dr;
 
             try

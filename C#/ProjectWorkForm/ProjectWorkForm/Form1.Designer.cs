@@ -44,7 +44,7 @@
             this.btnStatoMacchina = new System.Windows.Forms.Button();
             this.btnVelocità = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.comboBoxSceltaProdotto = new System.Windows.Forms.ComboBox();
+            this.txtSelezione = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,6 +171,7 @@
             this.btnInvia.TabIndex = 13;
             this.btnInvia.Text = "Invio";
             this.btnInvia.UseVisualStyleBackColor = true;
+            this.btnInvia.Click += new System.EventHandler(this.btnInvia_Click);
             // 
             // btnStatoMacchina
             // 
@@ -201,19 +202,20 @@
             this.button3.Text = "Invio";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // comboBoxSceltaProdotto
+            // txtSelezione
             // 
-            this.comboBoxSceltaProdotto.FormattingEnabled = true;
-            this.comboBoxSceltaProdotto.Location = new System.Drawing.Point(56, 120);
-            this.comboBoxSceltaProdotto.Name = "comboBoxSceltaProdotto";
-            this.comboBoxSceltaProdotto.Size = new System.Drawing.Size(245, 24);
-            this.comboBoxSceltaProdotto.TabIndex = 0;
+            this.txtSelezione.Location = new System.Drawing.Point(56, 121);
+            this.txtSelezione.Name = "txtSelezione";
+            this.txtSelezione.Size = new System.Drawing.Size(242, 22);
+            this.txtSelezione.TabIndex = 17;
+            this.txtSelezione.TextChanged += new System.EventHandler(this.txtSelezione_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 531);
+            this.Controls.Add(this.txtSelezione);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnVelocità);
             this.Controls.Add(this.btnStatoMacchina);
@@ -230,7 +232,7 @@
             this.Controls.Add(this.button0);
             this.Controls.Add(this.labelControllo);
             this.Controls.Add(this.labelSelezioneProdotto);
-            this.Controls.Add(this.comboBoxSceltaProdotto);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Menu principale";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -257,7 +259,7 @@
         private System.Windows.Forms.Button btnStatoMacchina;
         private System.Windows.Forms.Button btnVelocità;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBoxSceltaProdotto;
+        private System.Windows.Forms.TextBox txtSelezione;
     }
 }
 
