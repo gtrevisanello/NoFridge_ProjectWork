@@ -1,0 +1,12 @@
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\bin\Debug\ProjectWorkForm.exe.config
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\bin\Debug\ProjectWorkForm.exe
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\bin\Debug\ProjectWorkForm.pdb
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.csprojAssemblyReference.cache
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.Form1.resources
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.FormStatoMacchina.resources
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.Properties.Resources.resources
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.csproj.GenerateResource.cache
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.csproj.CoreCompileInputs.cache
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.exe
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.pdb
+C:\Users\Niccolò Fracasso\Desktop\PROJECT WORK\FormApp\ProjectWorkForm\ProjectWorkForm\obj\Debug\ProjectWorkForm.FormVelocità.resources
