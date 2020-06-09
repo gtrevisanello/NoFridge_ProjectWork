@@ -1,9 +1,0 @@
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\bin\Debug\CSharpBordoMacchina.exe.config
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\bin\Debug\CSharpBordoMacchina.exe
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\bin\Debug\CSharpBordoMacchina.pdb
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\obj\Debug\CSharpBordoMacchina.Form1.resources
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\obj\Debug\CSharpBordoMacchina.Properties.Resources.resources
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\obj\Debug\CSharpBordoMacchina.csproj.GenerateResource.cache
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\obj\Debug\CSharpBordoMacchina.exe
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\obj\Debug\CSharpBordoMacchina.pdb
-C:\Users\miche\source\repos\CSharpBordoMacchina\CSharpBordoMacchina\obj\Debug\CSharpBordoMacchina.csprojAssemblyReference.cache
